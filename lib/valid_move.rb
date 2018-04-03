@@ -13,7 +13,7 @@ end
 def valid_move?(board, index_number)
   binding.pry
 if position_taken?(board, index_number)
-  return true
+  return false
 elsif index_number.between?(0, 8)
   return true
 else
