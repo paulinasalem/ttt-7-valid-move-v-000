@@ -12,7 +12,7 @@ end
 def valid_move?(board, index_number)
 if position_taken?(board, index number)
   return true
-elsif between(0, 8)
+elsif index_number.between?(0, 8)
   return true
 else
   return false
